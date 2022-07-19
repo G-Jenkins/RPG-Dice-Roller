@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Plus+Jakarta+Sans:ital,wght@1,500&display=swap');
+* {
+  
+  font-family: 'Almendra SC', serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 25;
+}
+.title1 {
+  font-size: 2em;
+  color: #FFA630;
+  
+  
+}
+
+.wrapper {
+  width: 700px;
+  height: 900px;
+  /* background-color: #4DA1A9; */
+  background: rgb(131,165,175);
+  background: linear-gradient(90deg, rgba(131,165,175,1) 0%, rgba(77,161,169,1) 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;;
+  justify-content: space-around;
+  padding: 0;
+  border:  ridge #FFA630;
+  border-width: 1em;
+
+  
+}
+/* .selectors {
+  
+} */
+.button button{
+  font-size: 2em;
+}
+.diceImg{
+  margin: auto;
+  display: block;
+  max-width: 600px;
+  max-height: 600px;
+  width: 20%;
+  height: 20%;
+}
+
+/* body {
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), 
+} */
+
+/* .layer1 {
+  background-color: black;
+  display: grid;
+  just
+  position: absolute;
+  width: 90%;
+} */
+
+
+.rolledResult {
+  font-size: 1.5em;
+  text-align: center;
+  background-color:#FFA630;;
+  border-radius: 25px;
+  border: ridge #FFA630;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  height: 100px;
+  width: 100px;
+}
+
+.rollButtons {
+  justify-content: e;
+}
+button {
+  background-color:#FFA630;
+  font-size: 1em;
+  border-radius: 9px;
+  border: ridge #FFA630;
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  text-transform: uppercase;
+  width: 100px;
+  margin-bottom: 3em;
+
+}
+#placeholder {
+  height: 80px;
+  width: 80px;
+  margin: 0;
+  border: 2px solid gray;
+  border-radius: 10px;  
+  font-size:40px;
+  
+}
+
+.footer {
+
+  font-size: .6em;
+color: #FFF;
+text-align: left;
+}
+
+/*   DROPDOWN
+.dSelect {
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+
+
+
+/* 
+.dice img{
+   position: fixed;
+  height: 200px;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10); 
+
+} */
