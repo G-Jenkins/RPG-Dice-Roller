@@ -7,20 +7,6 @@ function setPicture() {
   alert(selectedValue);
 }
 
-////// ROLL 20
-document.getElementById('buttonRolld20').addEventListener('click', gameStart);
-function gameStart() {
-  
-  const randomDice = getRandomNumbers20();
-  document.getElementById("putHere").innerHTML = randomDice;
-
-  let imageTag = document.getElementById('dicePic');
-
-
-  imageTag.src = `d20/d20-${randomDice}.png`
-  return randomDice
-  
-}
 
 ////// ROLL 20
 document.getElementById('buttonRolld20').addEventListener('click', roll20);
@@ -132,7 +118,19 @@ function getRandomNumbers4() {
   return Math.ceil(Math.random()*4)
 }
 
+/* Attempt at making a JSON object
 
+
+const result = '{"final": randomDice}';
+const obj = JSON.parse(text, function (final, randomdice);
+document.getElementById("rolledResult").innerHTML = result;
+
+
+*/ 
+/*  Session Storage 
+
+sessionStorage.setItem('randomDice', )
+*/ 
 
 
 // const diceEl = document.querySelector(".dice");
